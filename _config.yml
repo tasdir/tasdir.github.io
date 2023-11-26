@@ -47,10 +47,9 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-About
-I am Mohammed Tasdir Ahmmed, a dedicated and passionate Cyber Security Researcher with a 5 years+ experince in penetration testing, security audits, and Malware Analysis. My expertise has led me to secure over 20 recognizable organizations, including Cambridge University, Microsoft, Walmart, Avast, and Starbucks.
+  I am Mohammed Tasdir Ahmmed, a dedicated and passionate Cyber Security Researcher with a 5 years+ in penetration testing, security audits, and Malware Analysis. My expertise has led me to secure over 20 recognizable organizations, including Cambridge University, Microsoft, Walmart, Avast, and Starbucks.
 
-Apart from my professional pursuits, I actively participate in national and international cybersecurity competitions, securing numerous organasition and demonstrating my commitment to staying ahead in the rapidly evolving world of cyber threats.
+  Apart from my professional pursuits, I actively participate in national and international cybersecurity competitions, securing numerous organasition and demonstrating my commitment to staying ahead in the rapidly evolving world of cyber threats.
 
   I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
 
@@ -78,7 +77,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: The Boring Companyss
+        title: The Boring Company
         link: boringcompany.com
         # link_text: boringcompany.com
         sub_title: Senior Network System Administrator
