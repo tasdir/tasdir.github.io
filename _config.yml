@@ -32,6 +32,102 @@ about_content: |
   
   I have also represented Bangladesh at various international platforms, reflecting my dedication to the field of cyber security.
 
+# Achievements
+content:
+  - title: Achievements
+    layout: list
+    content:
+      - layout: left
+        title: WorldSkills 2024
+        caption: Lyon, France - Bangladesh Representative
+        description: |
+          Representing Bangladesh in the WorldSkills 2024 competition in Lyon, France, demonstrating expertise in cybersecurity and network systems.
+      - layout: left
+        title: Bangabandhu National Skill Competition 2023
+        caption: Champion
+        description: |
+          Awarded the champion title at the prestigious national skill competition organized by NSDA, Prime Minister’s Office.
+      - layout: left
+        title: SUST SWE TECHNOVENT CTF 2023
+        caption: Champion
+        description: |
+          Emerged as the champion at the SUST SWE TECHNOVENT CTF 2023, showcasing superior skills in Capture The Flag cybersecurity challenges.
+      - layout: left
+        title: International Blockchain Olympiad 2022
+        caption: Silver Award, Award of Distinction
+        description: |
+          Achieved a Silver Award and an Award of Distinction at the International Blockchain Olympiad, recognizing my innovative solutions in blockchain technology.
+      - layout: left
+        title: Blockchain Olympiad Bangladesh 2022
+        caption: eGovernance Category Award
+        description: |
+          Honored with the eGovernance Category Award at the Blockchain Olympiad Bangladesh 2022.
+      - layout: left
+        title: National CyberDrill 2022
+        caption: Champion
+        description: |
+          Champion of the National CyberDrill 2022, excelling in cyber defense strategies and implementation.
+      - layout: left
+        title: Inter-University Cyber Drill 2021
+        caption: Champion
+        description: |
+          Secured the championship at the Inter-University Cyber Drill organized by BGD e-GOV CIRT in 2021.
+      - layout: left
+        title: Bangabandhu National Skill Competition 2021
+        caption: Dhaka Divisional Champion
+        description: |
+          Dhaka Divisional Champion at the Bangabandhu National Skill Competition 2021.
+      - layout: left
+        title: CyberSummit 2021 Hackathon
+        caption: 1st Runners Up
+        description: |
+          Achieved the position of 1st Runners Up at the CyberSummit 2021 Hackathon.
+      - layout: left
+        title: National Cyber Drill 2020
+        caption: 1st Runners Up
+        description: |
+          1st Runners Up in the National Cyber Drill 2020, showcasing effective cyber crisis management skills.
+      - layout: left
+        title: JU CTF 2019
+        caption: 1st Runners Up
+        description: |
+          1st Runners Up at the JU CTF 2019, demonstrating advanced penetration testing and security skills.
+      - layout: left
+        title: Cyber Security Challenge 2019
+        caption: 1st Runners Up
+        description: |
+          Secured 1st Runners Up position at the Cyber Security Challenge 2019.
+      - layout: left
+        title: Cyber Security Challenge 2018
+        caption: Champion
+        description: |
+          Champion of the Cyber Security Challenge 2018, excelling in cyber threat identification and resolution.
+
+# Certifications
+  - title: Certifications
+    layout: list
+    content:
+      - layout: left
+        title: Certified Ethical Hacker Practical (CEHP)
+        caption: March 2024
+        sub_title: EC-Council
+        description: |
+          A practical credential that certifies proficiency in ethical hacking with a focus on securing systems and identifying vulnerabilities.
+      - layout: left
+        title: iOS Forensics Certification
+        caption: October 2023
+        sub_title: Belkasoft LLC, USA
+        description: |
+          Specialized certification in iOS forensics, emphasizing on data extraction and analysis from iOS devices.
+      - layout: left
+        title: Certified AppSec Practitioner
+        caption: January 2023
+        sub_title: The SecOps Group, UK
+        description: |
+          Certification focused on application security, providing advanced knowledge in securing applications from potential threats.
+
+
+
 # Experience
 content:
   - title: Experience
