@@ -1,6 +1,7 @@
-# Site
+# Site configuration
 repository: sproogen/resume-theme
 favicon: images/favicon.ico
+remote_theme: sproogen/resume-theme
 
 # Content configuration version
 version: 2
@@ -10,7 +11,6 @@ name: Mohammed Tasdir Ahmmed
 title: Cyber Security Analyst
 website: www.tasdirahmmed.com
 
-
 # Dark Mode (true/false/never)
 darkmode: true
 
@@ -19,168 +19,47 @@ twitter_username: tasdir_x
 github_username: tasdir
 linkedin_username: tasdir
 
-navigation:
-  - title: About
-    url: /about
-  - title: Blog
-    url: /blog
-  - title: Achievements
-    url: /achievements
-
 # Additional icon links
 additional_links:
   - title: itsgoingto.be
     icon: fas fa-globe
     url: https://www.itsgoingto.be
 
-# About Section
-about_profile_image: images/profile.jpg
-about_content: |
-  I am Mohammed Tasdir Ahmmed. With over five years of experience as a Cyber Security Researcher, I have conducted vulnerability assessments, penetration testing, and malware analysis. My work has contributed to the security of over 50 organizations including notable names like Cambridge University and Microsoft.
-  
-  I have also represented Bangladesh at various international platforms, reflecting my dedication to the field of cyber security.
+# Blog settings
+blog:
+  title: "My Blog"
+  description: "Insights, tips, and updates from the world of cyber security."
+  categories_enabled: true
+  tags_enabled: true
 
-# Achievements
-content:
-  - title: Achievements
-    layout: list
-    content:
-      - layout: left
-        title: WorldSkills 2024
-        caption: Lyon, France - Bangladesh Representative
-        description: |
-          Representing Bangladesh in the WorldSkills 2024 competition in Lyon, France, demonstrating expertise in cybersecurity and network systems.
-      - layout: left
-        title: Bangabandhu National Skill Competition 2023
-        caption: Champion
-        description: |
-          Awarded the champion title at the prestigious national skill competition organized by NSDA, Prime Minister’s Office.
-      - layout: left
-        title: SUST SWE TECHNOVENT CTF 2023
-        caption: Champion
-        description: |
-          Emerged as the champion at the SUST SWE TECHNOVENT CTF 2023, showcasing superior skills in Capture The Flag cybersecurity challenges.
-      - layout: left
-        title: International Blockchain Olympiad 2022
-        caption: Silver Award, Award of Distinction
-        description: |
-          Achieved a Silver Award and an Award of Distinction at the International Blockchain Olympiad, recognizing my innovative solutions in blockchain technology.
-      - layout: left
-        title: Blockchain Olympiad Bangladesh 2022
-        caption: eGovernance Category Award
-        description: |
-          Honored with the eGovernance Category Award at the Blockchain Olympiad Bangladesh 2022.
-      - layout: left
-        title: National CyberDrill 2022
-        caption: Champion
-        description: |
-          Champion of the National CyberDrill 2022, excelling in cyber defense strategies and implementation.
-      - layout: left
-        title: Inter-University Cyber Drill 2021
-        caption: Champion
-        description: |
-          Secured the championship at the Inter-University Cyber Drill organized by BGD e-GOV CIRT in 2021.
-      - layout: left
-        title: Bangabandhu National Skill Competition 2021
-        caption: Dhaka Divisional Champion
-        description: |
-          Dhaka Divisional Champion at the Bangabandhu National Skill Competition 2021.
-      - layout: left
-        title: CyberSummit 2021 Hackathon
-        caption: 1st Runners Up
-        description: |
-          Achieved the position of 1st Runners Up at the CyberSummit 2021 Hackathon.
-      - layout: left
-        title: National Cyber Drill 2020
-        caption: 1st Runners Up
-        description: |
-          1st Runners Up in the National Cyber Drill 2020, showcasing effective cyber crisis management skills.
-      - layout: left
-        title: JU CTF 2019
-        caption: 1st Runners Up
-        description: |
-          1st Runners Up at the JU CTF 2019, demonstrating advanced penetration testing and security skills.
-      - layout: left
-        title: Cyber Security Challenge 2019
-        caption: 1st Runners Up
-        description: |
-          Secured 1st Runners Up position at the Cyber Security Challenge 2019.
-      - layout: left
-        title: Cyber Security Challenge 2018
-        caption: Champion
-        description: |
-          Champion of the Cyber Security Challenge 2018, excelling in cyber threat identification and resolution.
+# Navigation
+navigation:
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+  - title: Categories
+    url: /categories/
+  - title: Tags
+    url: /tags/
 
-# Certifications
-  - title: Certifications
-    layout: list
-    content:
-      - layout: left
-        title: Certified Ethical Hacker Practical (CEHP)
-        caption: March 2024
-        sub_title: EC-Council
-        description: |
-          A practical credential that certifies proficiency in ethical hacking with a focus on securing systems and identifying vulnerabilities.
-      - layout: left
-        title: iOS Forensics Certification
-        caption: October 2023
-        sub_title: Belkasoft LLC, USA
-        description: |
-          Specialized certification in iOS forensics, emphasizing on data extraction and analysis from iOS devices.
-      - layout: left
-        title: Certified AppSec Practitioner
-        caption: January 2023
-        sub_title: The SecOps Group, UK
-        description: |
-          Certification focused on application security, providing advanced knowledge in securing applications from potential threats.
+# Plugins
+plugins:
+  - jekyll-seo-tag
+  - jekyll-archives
 
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
-
-# Experience
-content:
-  - title: Experience
-    layout: list
-    content:
-      - layout: left
-        title: ABC
-        link: abc.com
-        sub_title: Cyber Security Analyst
-        caption: February 2022 - Present
-        quote: >
-          Lead critical security assessments and delivered training on malware analysis and threat hunting.
-        description: |
-          At Fusion IT, my role involves conducting comprehensive malware analysis and vulnerability assessments, ensuring robust security practices across the company's infrastructure. I also provide quarterly security reports and lead training sessions for the team.
-
-      - layout: left
-        title: XYZ
-        link: xyz.com
-        sub_title: Chief Executive Officer
-        caption: January 2023 - Present
-        quote: >
-          Pioneering a crowdsourced global penetration testing platform.
-        description: |
-          As CEO of Disclosify, I oversee the development of our core product and organize national cyber security competitions and conferences, driving innovation and leadership in the cyber security domain.
-
-# Education
-  - title: Education
-    layout: list
-    content:
-      - layout: left
-        title: Independent University, Bangladesh
-        caption: 2018
-        sub_title: BSc Computer Science and Engineering
-        description: |
-          Pursuing a Bachelor's degree in Computer Science and Engineering, where I am gaining advanced knowledge in cyber security, network systems, and software development.
-
-# Footer
-footer_show_references: true
-
-# Build settings
-remote_theme: sproogen/resume-theme
-
+# Sass configuration
 sass:
   sass_dir: _sass
   style: compressed
-
-plugins:
- - jekyll-seo-tag
