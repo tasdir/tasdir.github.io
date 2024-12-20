@@ -19,6 +19,14 @@ twitter_username: tasdir_x
 github_username: tasdir
 linkedin_username: tasdir
 
+navigation:
+  - title: About
+    url: /about
+  - title: Blog
+    url: /blog
+  - title: Achievements
+    url: /achievements
+
 # Additional icon links
 additional_links:
   - title: itsgoingto.be
